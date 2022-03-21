@@ -30,39 +30,39 @@ def _tes(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('browse'))
-def _tes(bot, update):
+def _tes1(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('anime'))
-def _tes(bot, update):
+def _tes2(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('menu'))
-def _tes(bot, update):
+def _tes3(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('manga'))
-def _tes(bot, update):
+def _tes4(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('character'))
-def _tes(bot, update):
+def _tes5(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('quote'))
-def _tes(bot, update):
+def _tes6(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('anilist'))
-def _tes(bot, update):
+def _tes7(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('auth'))
-def _tes(bot, update):
+def _tes8(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('schedule'))
-def _tes(bot, update):
+def _tes9(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('airing'))
