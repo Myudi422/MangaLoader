@@ -9,7 +9,7 @@ from helper_funcs.help import check_url
 def download(bot, update):
     if update.from_user.id != Config.OWNER_ID:
         return
-    url = update.url
+    url = update.text
     if check_url(url):
         pass
     else:
