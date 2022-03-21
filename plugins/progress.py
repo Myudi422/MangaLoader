@@ -5,7 +5,7 @@ from config import Config
 from helper_funcs.help import check_url
 
 
-@Client.on_message(filters.private & filters.url)
+@Client.on_message(filters.private & filters.text)
 def download(bot, update):
     if update.from_user.id != Config.OWNER_ID:
         return
