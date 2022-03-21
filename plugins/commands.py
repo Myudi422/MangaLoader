@@ -66,71 +66,71 @@ def _tes9(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('airing'))
-def _tes(bot, update):
+def _tes10(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('manga_s'))
-def _tes(bot, update):
+def _tes11(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('getgenres'))
-def _tes(bot, update):
+def _tes12(bot, update):
     update.reply_text    
 
 @Client.on_message(filters.private & filters.command('gettags'))
-def _tes(bot, update):
+def _tes13(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('watch'))
-def _tes(bot, update):
+def _tes14(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('wallpaper'))
-def _tes(bot, update):
+def _tes15(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('waifu'))
-def _tes(bot, update):
+def _tes16(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('reverse'))
-def _tes(bot, update):
+def _tes17(bot, update):
     update.reply_text     
 
 @Client.on_message(filters.private & filters.command('favourites'))
-def _tes(bot, update):
+def _tes18(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('me'))
-def _tes(bot, update):
+def _tes19(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('flex'))
-def _tes(bot, update):
+def _tes20(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('user'))
-def _tes(bot, update):
+def _tes21(bot, update):
     update.reply_text              
 @Client.on_message(filters.private & filters.command('ping'))
-def _tes(bot, update):
+def _tes22(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('fillers'))
-def _tes(bot, update):
+def _tes23(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('logout'))
-def _tes(bot, update):
+def _tes24(bot, update):
     update.reply_text    
 @Client.on_message(filters.private & filters.command('top'))
-def _tes(bot, update):
+def _tes25(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('top'))
-def _tes(bot, update):
+def _tes26(bot, update):
     update.reply_text
 
 @Client.on_message(filters.private & filters.command('top'))
-def _tes(bot, update):
+def _tes27(bot, update):
     update.reply_text                     
