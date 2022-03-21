@@ -4,6 +4,9 @@ from pyrogram.types.bots_and_keyboards import InlineKeyboardMarkup
 from translation import Translation
 
 
+@Client.on_message(filters.private & filters.command('top'))
+
+
 @Client.on_message(filters.private & filters.command('starts'))
 def _start(bot, update):
     update.reply_text(
