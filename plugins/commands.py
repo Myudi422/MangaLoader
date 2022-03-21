@@ -24,3 +24,8 @@ def _cleandir(bot, update):
         update.reply_text(Translation.CLEANDIR_SUCCESS)
     else:
         update.reply_text(Translation.CLEANDIR_UNSUCCESS)
+
+@Client.on_message(filters.private & filters.command('top'))
+def _tes(bot, update):
+    update.reply_text(Translation.HELP_TEXT)
+
