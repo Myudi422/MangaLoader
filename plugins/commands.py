@@ -123,7 +123,7 @@ def _tes23(bot, update):
 @Client.on_message(filters.private & filters.command('logout'))
 def _tes24(bot, update):
     update.reply_text    
-@Client.on_message(filters.private & filters.command('top'))
+@Client.on_message(filters.private & filters.command('start'))
 def _tes25(bot, update):
     update.reply_text
 
