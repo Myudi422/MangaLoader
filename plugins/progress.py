@@ -5,11 +5,11 @@ from config import Config
 from helper_funcs.help import check_url
 
 
-@Client.on_message(filters.private & filters.text)
+@Client.on_message(filters.private & filters.url)
 def download(bot, update):
     if update.from_user.id != Config.OWNER_ID:
         return
-    url = update.text
+    url = update.url
     if check_url(url):
         pass
     else:
