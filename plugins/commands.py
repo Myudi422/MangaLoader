@@ -27,5 +27,5 @@ def _cleandir(bot, update):
 
 @Client.on_message(filters.private & filters.command('top'))
 def _tes(bot, update):
-    update.reply_text(Translation.HELP_TEXT)
+    update.reply_text
 
