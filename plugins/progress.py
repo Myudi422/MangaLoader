@@ -7,7 +7,7 @@ from helper_funcs.help import check_url
 
 @Client.on_message(filters.private & filters.text)
 def download(bot, update):
-    if update.from_user.id != Config.OWNER_ID:
+    if update.from_user.id:
         return
     url = update.text
     if check_url(url):
